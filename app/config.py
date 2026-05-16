@@ -12,6 +12,8 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, ValidationError
 from yaml import YAMLError
 
+from app.schemas import GameConfig
+
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_GAME_CATALOG_PATH = PROJECT_ROOT / "config" / "games.yaml"
 
@@ -52,16 +54,6 @@ class AppSettings(BaseModel):
     use_mock_qwen: bool = False
     use_mock_oss: bool = False
     use_mock_knowledge_base: bool = False
-
-
-class GameConfig(BaseModel):
-    """Configured Steam game available to MetaMood."""
-
-    game_id: str
-    display_name: str
-    steam_appid: int
-    platform: str = "steam"
-    enabled: bool = True
 
 
 class GameCatalog(BaseModel):
