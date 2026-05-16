@@ -1,0 +1,24 @@
+games:
+  - game_id: "helldivers_2"
+    display_name: "HELLDIVERS 2"
+    steam_appid: 553850
+    platform: "steam"
+    enabled: true
+
+  - game_id: "counter_strike_2"
+    display_name: "Counter-Strike 2"
+    steam_appid: 730
+    platform: "steam"
+    enabled: true
+
+  - game_id: "dota_2"
+    display_name: "Dota 2"
+    steam_appid: 570
+    platform: "steam"
+    enabled: true
+
+  - game_id: "team_fortress_2"
+    display_name: "Team Fortress 2"
+    steam_appid: 440
+    platform: "steam"
+    enabled: false
