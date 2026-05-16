@@ -57,7 +57,7 @@ git status --short
 
 | State | Action |
 |-------|--------|
-| On main/default branch and clean | Create a branch: `git checkout -b feature/{plan-name}` |
+| On main/default branch and clean | Create a branch: `git checkout -b feature-{plan-name}` |
 | On main/default branch and dirty | Stop and ask before touching unrelated work |
 | On feature branch | Continue on the current branch |
 
