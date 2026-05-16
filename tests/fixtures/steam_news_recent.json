@@ -1,0 +1,36 @@
+{
+  "appnews": {
+    "appid": 553850,
+    "count": 4,
+    "newsitems": [
+      {
+        "gid": "steam-news-community-20260120",
+        "title": "Community Spotlight: Galactic Highlights",
+        "url": "https://store.steampowered.com/news/app/553850/view/community-20260120",
+        "date": 1768924800,
+        "contents": "<p>Celebrate the latest community screenshots and fan art.</p>"
+      },
+      {
+        "gid": "steam-news-hotfix-20260118",
+        "title": "Hotfix 01.002.105",
+        "url": "https://store.steampowered.com/news/app/553850/view/hotfix-20260118",
+        "date": 1768737600,
+        "contents": "<h2>Hotfix Notes</h2><p>We fixed a crash on mission extraction.</p>[list][*][b]Balance[/b]: Reduced enemy spawn spikes.[*][url=https://example.com]Known issues[/url] remain under review.[/list]"
+      },
+      {
+        "gid": "steam-news-patch-20260110",
+        "title": "Patch 01.002.104",
+        "url": "https://store.steampowered.com/news/app/553850/view/patch-20260110",
+        "date": 1768037400,
+        "contents": "<p>Patch notes for the latest balance pass.</p><br>[b]Weapons[/b]: Adjusted rifle damage."
+      },
+      {
+        "gid": "steam-news-event-20260105",
+        "title": "Weekend Event Schedule",
+        "url": "https://store.steampowered.com/news/app/553850/view/event-20260105",
+        "date": 1767636000,
+        "contents": "<p>Join this weekend for bonus medals and community goals.</p>"
+      }
+    ]
+  }
+}
