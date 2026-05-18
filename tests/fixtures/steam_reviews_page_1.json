@@ -1,0 +1,50 @@
+{
+  "success": 1,
+  "query_summary": {
+    "num_reviews": 3,
+    "review_score": 5,
+    "review_score_desc": "Mixed",
+    "total_positive": 1,
+    "total_negative": 2,
+    "total_reviews": 3
+  },
+  "cursor": "cursor-page-2",
+  "reviews": [
+    {
+      "recommendationid": "review-pre-patch",
+      "language": "english",
+      "review": "Before this patch the balance felt fine.",
+      "timestamp_created": 1768651200,
+      "voted_up": true,
+      "votes_up": 3,
+      "author": {
+        "steamid": "76561190000000001",
+        "playtime_forever": 120
+      }
+    },
+    {
+      "recommendationid": "review-exact-patch",
+      "language": "english",
+      "review": "Right as the patch landed, matchmaking started failing.",
+      "timestamp_created": 1768737600,
+      "voted_up": false,
+      "votes_up": 8,
+      "author": {
+        "steamid": "76561190000000002",
+        "playtime_forever": 360
+      }
+    },
+    {
+      "recommendationid": "review-post-bug",
+      "language": "english",
+      "review": "After the hotfix, extraction crashes every other mission.",
+      "timestamp_created": 1768824000,
+      "voted_up": false,
+      "votes_up": 15,
+      "author": {
+        "steamid": "76561190000000003",
+        "playtime_forever": 5400
+      }
+    }
+  ]
+}

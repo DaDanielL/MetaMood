@@ -1,5 +1,20 @@
 """External ingestion connector boundaries."""
 
+from app.connectors.steam_reviews import (
+    STEAM_REVIEWS_ENDPOINT_TEMPLATE,
+    STEAM_REVIEWS_SOURCE,
+    SteamReviewPage,
+    SteamReviewsError,
+    SteamReviewsFetchResult,
+    SteamReviewsHttpClient,
+    SteamReviewsResponse,
+    deduplicate_review_payloads,
+    fetch_post_patch_feedback,
+    fetch_review_pages,
+    filter_feedback_after_patch,
+    normalize_review_to_feedback_item,
+    parse_steam_review_datetime,
+)
 from app.connectors.steam_news import (
     PATCH_KEYWORDS,
     STEAM_NEWS_ENDPOINT,
@@ -17,15 +32,28 @@ from app.connectors.steam_news import (
 
 __all__ = [
     "PATCH_KEYWORDS",
+    "STEAM_REVIEWS_ENDPOINT_TEMPLATE",
+    "STEAM_REVIEWS_SOURCE",
     "STEAM_NEWS_ENDPOINT",
+    "SteamReviewPage",
+    "SteamReviewsError",
+    "SteamReviewsFetchResult",
+    "SteamReviewsHttpClient",
+    "SteamReviewsResponse",
     "SteamNewsError",
     "SteamNewsHttpClient",
     "SteamNewsResponse",
     "clean_news_content",
+    "deduplicate_review_payloads",
     "detect_latest_patch_event",
+    "fetch_post_patch_feedback",
     "fetch_recent_news",
+    "fetch_review_pages",
+    "filter_feedback_after_patch",
     "is_patch_news_post",
     "normalize_news_item_to_patch_event",
+    "normalize_review_to_feedback_item",
+    "parse_steam_review_datetime",
     "parse_steam_news_datetime",
     "select_latest_patch_post",
 ]
