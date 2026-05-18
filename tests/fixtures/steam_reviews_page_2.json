@@ -1,0 +1,38 @@
+{
+  "success": 1,
+  "query_summary": {
+    "num_reviews": 2,
+    "review_score": 4,
+    "review_score_desc": "Mostly Negative",
+    "total_positive": 0,
+    "total_negative": 2,
+    "total_reviews": 2
+  },
+  "cursor": "cursor-final",
+  "reviews": [
+    {
+      "recommendationid": "review-post-bug",
+      "language": "english",
+      "review": "Duplicate later copy that should not replace the first crash report.",
+      "timestamp_created": 1768827600,
+      "voted_up": false,
+      "votes_up": 1,
+      "author": {
+        "steamid": "76561190000000004",
+        "playtime_forever": 30
+      }
+    },
+    {
+      "recommendationid": "review-post-crash",
+      "language": "english",
+      "review": "The new build crashes when the mission reward screen opens.",
+      "timestamp_created": 1768910400,
+      "voted_up": false,
+      "votes_up": 21,
+      "author": {
+        "steamid": "76561190000000005",
+        "playtime_forever": 7200
+      }
+    }
+  ]
+}
